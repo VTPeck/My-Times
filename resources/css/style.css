@@ -24,3 +24,16 @@
 nav {
   margin-right: 20px;
 }
+.content {
+  display: inline-flex;
+  margin-top: 100px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+#left,
+#center,
+#right {
+  flex-direction: column;
+  border: 1px solid black;
+  width: 33%;
+}
